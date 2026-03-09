@@ -1,0 +1,4 @@
+﻿
+
+Add-Migration -Context HacathonContext -o Data\HCMigrations Initial
+Update-Database -Context HacathonContext 
